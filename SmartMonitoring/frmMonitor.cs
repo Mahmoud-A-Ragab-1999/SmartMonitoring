@@ -909,6 +909,14 @@ where counters.is_deleted = 0 and tbl_link.machine_id = '{_server_id}' and tbl_l
             MonitorErrors monitorError = new MonitorErrors();
             monitorError.ShowDialog();
         }
+
+        private void mnuCounterMoveDown_Click(object sender, EventArgs e)
+        {
+            //List<montr_monitor_counters> foo = (List<montr_monitor_counters>)gvCounters.DataSource;
+            //int idx = gvCounters.SelectedRows[0].Index;
+            //int value = foo[idx];
+
+        }
     }
 
     public class MeasureModel

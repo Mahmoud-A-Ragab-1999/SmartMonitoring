@@ -476,7 +476,7 @@
             // 
             this.splitContainer2.Panel2.BackColor = System.Drawing.SystemColors.Control;
             this.splitContainer2.Panel2.Controls.Add(this.Chart2);
-            this.splitContainer2.Panel2.Padding = new System.Windows.Forms.Padding(10, 10, 10, 10);
+            this.splitContainer2.Panel2.Padding = new System.Windows.Forms.Padding(10);
             this.splitContainer2.Size = new System.Drawing.Size(701, 312);
             this.splitContainer2.SplitterDistance = 263;
             this.splitContainer2.TabIndex = 0;
@@ -642,7 +642,7 @@
             this.mnuCounterViewData,
             this.mnuCounterExportData});
             this.cmnuCounters.Name = "cmnuCounters";
-            this.cmnuCounters.Size = new System.Drawing.Size(185, 192);
+            this.cmnuCounters.Size = new System.Drawing.Size(185, 214);
             // 
             // mnuCounterAdd
             // 
@@ -688,6 +688,7 @@
             this.mnuCounterMoveDown.Name = "mnuCounterMoveDown";
             this.mnuCounterMoveDown.Size = new System.Drawing.Size(184, 22);
             this.mnuCounterMoveDown.Text = "Move Counter Down";
+            this.mnuCounterMoveDown.Click += new System.EventHandler(this.mnuCounterMoveDown_Click);
             // 
             // mnuCounterSeparator2
             // 
